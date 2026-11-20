@@ -7,549 +7,385 @@ A collection of networking, infrastructure, and AI projects running across a Ras
 
 ## Systems Foundations
 
-### OS Boot Process
+### [OS Boot Process](https://github.com/ManiAm/os-boot-process)
 
-- **Description**: A ground-up walkthrough of the OS boot sequence — CPU reset, BIOS/UEFI, bootloaders, kernel initialization, and hands-on boot-sector disassembly.
+A ground-up walkthrough of the OS boot sequence — CPU reset, BIOS/UEFI, bootloaders, kernel initialization, and hands-on boot-sector disassembly.
 
-- **GitHub**: https://github.com/ManiAm/os-boot-process
+### [Linux Kernel](https://github.com/ManiAm/linux-kernel)
 
-### Linux Kernel
+A reference covering the Linux kernel — its UNIX origins, system architecture overview, compiling custom kernels for multiple architectures, and the kernel boot process.
 
-- **Description**: A reference covering the Linux kernel — its UNIX origins, system architecture overview, compiling custom kernels for multiple architectures, and the kernel boot process.
+### [Storage and File Systems](https://github.com/ManiAm/storage-and-file-systems)
 
-- **GitHub**: https://github.com/ManiAm/linux-kernel
+A bottom-up primer covering disk storage from physical hardware and partitioning schemes to filesystem internals and Linux directory organization.
 
-### Storage and File Systems
+### [Linux Init Systems](https://github.com/ManiAm/linux-init-systems)
 
-- **Description**: A bottom-up primer covering disk storage from physical hardware and partitioning schemes to filesystem internals and Linux directory organization.
+Linux init systems — from the kernel-to-userspace handoff and SysV init to systemd service management, unit files, dependencies, and journald.
 
-- **GitHub**: https://github.com/ManiAm/storage-and-file-systems
+### [Linux Package Management](https://github.com/ManiAm/linux-package-management)
 
-### Linux Init Systems
+A beginner-friendly guide to Linux package management covering dpkg, APT, RPM, DNF, and building .deb/.rpm packages from source.
 
-- **Description**: Linux init systems — from the kernel-to-userspace handoff and SysV init to systemd service management, unit files, dependencies, and journald.
 
-- **GitHub**: https://github.com/ManiAm/linux-init-systems
-
----
 
 ## Tools and Environment
 
-### Bash Primer
+### [Bash Primer](https://github.com/ManiAm/primer-bash)
 
-- **Description**: A hands-on primer on Bash — covering shell fundamentals, scripting patterns, process control, and practical techniques for day-to-day systems work.
+A hands-on primer on Bash — covering shell fundamentals, scripting patterns, process control, and practical techniques for day-to-day systems work.
 
-- **GitHub**: https://github.com/ManiAm/primer-bash
+### [Terminal Primer](https://github.com/ManiAm/primer-terminal)
 
-### Terminal Primer
+A beginner-friendly guide to how terminals work in Linux — from physical teletypes to modern terminal emulators.
 
-- **Description**: A beginner-friendly guide to how terminals work in Linux — from physical teletypes to modern terminal emulators.
+### [Build Tools Primer](https://github.com/ManiAm/primer-build-tools)
 
-- **GitHub**: https://github.com/ManiAm/primer-terminal
+A comparative guide to build systems — Make, CMake, and Bazel — covering dependency models, build graphs, caching, and when to use each.
 
-### Build Tools Primer
 
-- **Description**: A comparative guide to build systems — Make, CMake, and Bazel — covering dependency models, build graphs, caching, and when to use each.
-
-- **GitHub**: https://github.com/ManiAm/primer-build-tools
-
----
 
 ## Virtualization
 
-### Virtualization Primer
+### [Virtualization Primer](https://github.com/ManiAm/primer-virtualization)
 
-- **Description**: A hands-on primer covering virtualization from hardware hypervisors and QEMU to Docker containers and beyond.
+A hands-on primer covering virtualization from hardware hypervisors and QEMU to Docker containers and beyond.
 
-- **GitHub**: https://github.com/ManiAm/primer-virtualization
+### [QEMU-LabNet](https://github.com/ManiAm/qemu-labnet)
 
-### QEMU-LabNet
+A cross-architecture virtualization lab that connects lightweight QEMU VMs across ARM64 and x86_64 platforms with TAP/VXLAN networking, shared host data, and a Flask-based QMP dashboard.
 
-- **Description**: A cross-architecture virtualization lab that connects lightweight QEMU VMs across ARM64 and x86_64 platforms with TAP/VXLAN networking, shared host data, and a Flask-based QMP dashboard.
+### [Container Orchestration](https://github.com/ManiAm/container-orchestration)
 
-- **GitHub**: https://github.com/ManiAm/qemu-labnet
+A primer on container orchestration with a focus on Kubernetes.
 
-### Container Orchestration
 
-- **Description**: A primer on container orchestration with a focus on Kubernetes.
-
-- **GitHub**: https://github.com/ManiAm/container-orchestration
-
----
 
 ## Routing and Forwarding
 
-### FRRouting (FRR)
+### [FRRouting (FRR)](https://github.com/ManiAm/FRR-LabNet)
 
-- **Description**: Hands-on Docker-based lab to learn FRRouting (FRR) using an automated multi-node OSPF topology.
+Hands-on Docker-based lab to learn FRRouting (FRR) using an automated multi-node OSPF topology.
 
-- **GitHub**: https://github.com/ManiAm/FRR-LabNet
+### [Bidirectional Forwarding Detection (BFD)](https://github.com/ManiAm/BFD-LabNet)
 
-### Bidirectional Forwarding Detection (BFD)
+A Docker lab that demonstrates BFD's sub-second failure detection versus OSPF's 40-second dead timer using a three-node FRR topology.
 
-- **Description**: A Docker lab that demonstrates BFD's sub-second failure detection versus OSPF's 40-second dead timer using a three-node FRR topology.
+### [Segment Routing (SR)](https://github.com/ManiAm/SR-LabNet)
 
-- **GitHub**: https://github.com/ManiAm/BFD-LabNet
+A hands-on Docker lab that builds a four-node IS-IS network with SRv6, demonstrating SID distribution and source routing with FRRouting.
 
-### Segment Routing (SR)
+### [Virtual Routing and Forwarding (VRF)](https://github.com/ManiAm/VRF-LabNet)
 
-- **Description**: A hands-on Docker lab that builds a four-node IS-IS network with SRv6, demonstrating SID distribution and source routing with FRRouting.
+A Docker lab that demonstrates VRF routing-table isolation and BGP route leaking on a single FRR router with two VRFs and four hosts.
 
-- **GitHub**: https://github.com/ManiAm/SR-LabNet
 
-### Virtual Routing and Forwarding (VRF)
-
-- **Description**: A Docker lab that demonstrates VRF routing-table isolation and BGP route leaking on a single FRR router with two VRFs and four hosts.
-
-- **GitHub**: https://github.com/ManiAm/VRF-LabNet
-
----
 
 ## Programmable Networking
 
-### Software-Defined Networking (SDN)
+### [Software-Defined Networking (SDN)](xxx)
 
-- **Description**: xxx
+*(Coming soon)*
 
-- **GitHub**: xxx
+### [P4-Mininet](https://github.com/ManiAm/p4-mininet)
 
-### P4-Mininet
+A containerized P4 learning environment using Mininet and BMv2 to simulate programmable IPv4 forwarding.
 
-- **Description**: A containerized P4 learning environment using Mininet and BMv2 to simulate programmable IPv4 forwarding.
 
-- **GitHub**: https://github.com/ManiAm/p4-mininet
-
----
 
 ## Packet Processing
 
-### DPDK-LabNet
+### [DPDK-LabNet](https://github.com/ManiAm/dpdk-labnet)
 
-- **Description**: A minimal virtual lab environment using two VMs to test and validate DPDK-based packet processing and traffic forwarding.
+A minimal virtual lab environment using two VMs to test and validate DPDK-based packet processing and traffic forwarding.
 
-- **GitHub**: https://github.com/ManiAm/dpdk-labnet
+### [VPP-LabNet](https://github.com/ManiAm/vpp-labnet)
 
-### VPP-LabNet
+A lightweight container-based lab using VPP and FRRouting to simulate high-speed packet forwarding and dynamic routing across multiple virtual nodes.
 
-- **Description**: A lightweight container-based lab using VPP and FRRouting to simulate high-speed packet forwarding and dynamic routing across multiple virtual nodes.
 
-- **GitHub**: https://github.com/ManiAm/vpp-labnet
-
----
 
 ## Data Center Networking
 
-### Data Center Fundamentals
+### [Data Center Fundamentals](https://github.com/ManiAm/DC-Fundamentals)
 
-- **Description**: Physical data center infrastructure — facility design, rack architecture, power/cooling, management, and network topology evolution from three-tier to leaf-spine.
+Physical data center infrastructure — facility design, rack architecture, power/cooling, management, and network topology evolution from three-tier to leaf-spine.
 
-- **GitHub**: https://github.com/ManiAm/DC-Fundamentals
+### [VXLAN-EVPN](https://github.com/ManiAm/DC-VXLAN)
 
-### VXLAN-EVPN
+Hands-on VXLAN + BGP EVPN leaf-spine fabric lab using SONiC VS, covering VLANs, overlay encapsulation, and EVPN control-plane configuration.
 
-- **Description**: Hands-on VXLAN + BGP EVPN leaf-spine fabric lab using SONiC VS, covering VLANs, overlay encapsulation, and EVPN control-plane configuration.
+### [QoS](https://github.com/ManiAm/DC-QOS)
 
-- **GitHub**: https://github.com/ManiAm/DC-VXLAN
+A structured guide to data center QoS — from service models and DiffServ pipelines through lossless Ethernet and next-generation congestion control.
 
-### QoS
+### [RDMA-Primer](https://github.com/ManiAm/RDMA-Primer)
 
-- **Description**: A structured guide to data center QoS — from service models and DiffServ pipelines through lossless Ethernet and next-generation congestion control.
+Hands-on RDMA application development in C, covering InfiniBand and RoCEv2.
 
-- **GitHub**: https://github.com/ManiAm/DC-QOS
+### [Data Center Fabric Load Balancing](https://github.com/ManiAm/DC-Load-Balancing)
 
-### RDMA-Primer
+A structured guide to hardware-level load balancing in data center switch fabrics — from ECMP hashing and its limitations through Adaptive Routing and congestion-aware traffic steering on ASICs and NPUs.
 
-- **Description**: Hands-on RDMA application development in C, covering InfiniBand and RoCEv2.
 
-- **GitHub**: https://github.com/ManiAm/RDMA-Primer
-
-### Data Center Fabric Load Balancing
-
-- **Description**: A structured guide to hardware-level load balancing in data center switch fabrics — from ECMP hashing and its limitations through Adaptive Routing and congestion-aware traffic steering on ASICs and NPUs.
-
-- **GitHub**: https://github.com/ManiAm/DC-Load-Balancing
-
----
 
 ## SONiC Internals and Development
 
-### Redis Lab
+### [Redis Lab](https://github.com/ManiAm/sonic-lab-redis)
 
-- **Description**: A structured reference for Redis — covering data types, persistence, transactions, Lua scripting, pub/sub, replication, and Python client usage.
+A structured reference for Redis — covering data types, persistence, transactions, Lua scripting, pub/sub, replication, and Python client usage.
 
-- **GitHub**: https://github.com/ManiAm/sonic-lab-redis
+### [SONiC Internals Lab](https://github.com/ManiAm/sonic-lab-internals)
 
-### SONiC Internals Lab
+A walkthrough of SONiC architecture and internals — containerization model, service infrastructure, and the role of Redis as the central data store.
 
-- **Description**: A walkthrough of SONiC architecture and internals — containerization model, service infrastructure, and the role of Redis as the central data store.
+### [SONiC Build Lab](https://github.com/ManiAm/sonic-lab-build)
 
-- **GitHub**: https://github.com/ManiAm/sonic-lab-internals
+A step-by-step guide to building SONiC VS images from source, covering host setup, build configuration, and deployment on Proxmox, bare-metal, or cloud environments.
 
-### SONiC Build Lab
+### [SONiC Daemon Lab](https://github.com/ManiAm/sonic-lab-daemon)
 
-- **Description**: A step-by-step guide to building SONiC VS images from source, covering host setup, build configuration, and deployment on Proxmox, bare-metal, or cloud environments.
+Developing custom SONiC containers and daemons — from Debian packaging and Docker integration to service management with supervisord.
 
-- **GitHub**: https://github.com/ManiAm/sonic-lab-build
 
-### SONiC Daemon Lab
 
-- **Description**: Developing custom SONiC containers and daemons — from Debian packaging and Docker integration to service management with supervisord.
+## SONiC Network Operations — GNS
 
-- **GitHub**: https://github.com/ManiAm/sonic-lab-daemon
+### [GNS-Bench](https://github.com/ManiAm/GNS-Bench)
 
----
+A setup guide for using GNS3 to simulate network topologies with appliances like Cisco and SONiC NOS.
 
-## SONiC Network Operations - GNS
+### [GNS-Sonic-ZTP](https://github.com/ManiAm/GNS-Sonic-ZTP)
 
-### GNS-Bench
+A hands-on lab demonstrating SONiC ZTP in GNS3, including building a ZTP-enabled SONiC VS image and automating switch configuration using DHCP and a provisioning server.
 
-- **Description**: A setup guide for using GNS3 to simulate network topologies with appliances like Cisco and SONiC NOS.
+### [GNS-Sonic-LLDP-Discover](https://github.com/ManiAm/GNS-Sonic-LLDP-Discover)
 
-- **GitHub**: https://github.com/ManiAm/GNS-Bench
+A lightweight tool that discovers SONiC network topology using LLDP and renders an interactive, port-level visualization.
 
-### GNS-Sonic-ZTP
+### [GNS-Sonic-Telemetry](https://github.com/ManiAm/GNS-Sonic-Telemetry)
 
-- **Description**: A hands-on lab demonstrating SONiC ZTP in GNS3, including building a ZTP-enabled SONiC VS image and automating switch configuration using DHCP and a provisioning server.
+Build a GNS3-based SONiC lab to explore modern network telemetry using gNMI, OpenConfig YANG models, and streaming data collection.
 
-- **GitHub**: https://github.com/ManiAm/GNS-Sonic-ZTP
+### [GNS-Sonic-FlowMon](https://github.com/ManiAm/GNS-Sonic-FlowMon)
 
-### GNS-Sonic-LLDP-Discover
+A traffic visibility and telemetry toolkit for SONiC devices, featuring real-time packet sniffing, PCAP export, and scalable sFlow monitoring via UDP.
 
-- **Description**: A lightweight tool that discovers SONiC network topology using LLDP and renders an interactive, port-level visualization.
+### [GNS-Sonic-Traffic](https://github.com/ManiAm/GNS-Sonic-Traffic)
 
-- **GitHub**: https://github.com/ManiAm/GNS-Sonic-LLDP-Discover
+A GNS3-based testbed for validating SONiC router traffic flows using TRex in a controlled environment.
 
-### GNS-Sonic-Telemetry
 
-- **Description**: Build a GNS3-based SONiC lab to explore modern network telemetry using gNMI, OpenConfig YANG models, and streaming data collection.
-
-- **GitHub**: https://github.com/ManiAm/GNS-Sonic-Telemetry
-
-### GNS-Sonic-FlowMon
-
-- **Description**: A traffic visibility and telemetry toolkit for SONiC devices, featuring real-time packet sniffing, PCAP export, and scalable sFlow monitoring via UDP.
-
-- **GitHub**: https://github.com/ManiAm/GNS-Sonic-FlowMon
-
-### GNS-Sonic-Traffic
-
-- **Description**: A GNS3-based testbed for validating SONiC router traffic flows using TRex in a controlled environment.
-
-- **GitHub**: https://github.com/ManiAm/GNS-Sonic-Traffic
-
----
 
 ## AI Infrastructure Networking
 
-### MPI
+### [MPI](https://github.com/ManiAm/GNS-MPI)
 
-- **Description**: MPI collective operations and communication topologies demonstrated across networked compute nodes in GNS3.
+MPI collective operations and communication topologies demonstrated across networked compute nodes in GNS3.
 
-- **GitHub**: https://github.com/ManiAm/GNS-MPI
+### [AI Network Architecture](https://github.com/ManiAm/DC-AI)
 
-### AI Network Architecture
+End-to-end AI network architecture: from the DNN workload through scale-up, scale-out, and open standards.
 
-- **Description**: End-to-end AI network architecture: from the DNN workload through scale-up, scale-out, and open standards.
+### [Multipath Reliable Connection (MRC)](https://github.com/ManiAm/DC-AI-MRC)
 
-- **GitHub**: https://github.com/ManiAm/DC-AI
+A hands-on emulator for MRC, a multipath RDMA protocol that sprays packets across all fabric paths to scale RoCEv2 for AI training.
 
-### Multipath Reliable Connection (MRC)
 
-- **Description**: A hands-on emulator for MRC, a multipath RDMA protocol that sprays packets across all fabric paths to scale RoCEv2 for AI training.
-
-- **GitHub**: https://github.com/ManiAm/DC-AI-MRC
-
----
 
 ## Physical Switch Lab
 
-### Switch SerDes and Signaling
+### [Switch SerDes and Signaling](https://github.com/ManiAm/net-lab-switch-serdes)
 
-- **Description**: High-speed serial signaling in data center switches: SerDes architecture, line coding, signal integrity, and link training.
+High-speed serial signaling in data center switches: SerDes architecture, line coding, signal integrity, and link training.
 
-- **GitHub**: https://github.com/ManiAm/net-lab-switch-serdes
+### [Transceiver Fundamentals](https://github.com/ManiAm/net-lab-transceiver)
 
-### Transceiver Fundamentals
+Pluggable transceiver architecture, management interfaces (CMIS/SFF-8636/SFF-8472), and EEPROM decoding tools.
 
-- **Description**: Pluggable transceiver architecture, management interfaces (CMIS/SFF-8636/SFF-8472), and EEPROM decoding tools.
+### [DX010 Lab](https://github.com/ManiAm/net-lab-dx010)
 
-- **GitHub**: https://github.com/ManiAm/net-lab-transceiver
+Celestica DX010 hardware deep-dive, cooling, setup guides, and SONiC platform scripts.
 
-### DX010 Lab
+### [PRBS](https://github.com/ManiAm/net-lab-prbs)
 
-- **Description**: Celestica DX010 hardware deep-dive, cooling, setup guides, and SONiC platform scripts.
+Physical-layer PRBS testing and signal integrity validation on a Celestica DX010 (Tomahawk) SONiC switch.
 
-- **GitHub**: https://github.com/ManiAm/net-lab-dx010
 
-### PRBS
-
-- **Description**: Physical-layer PRBS testing and signal integrity validation on a Celestica DX010 (Tomahawk) SONiC switch.
-
-- **GitHub**: https://github.com/ManiAm/net-lab-prbs
-
-### Snake
-
-- **Description**: xxx
-
-- **GitHub**: xxx
-
----
 
 ## Lab Access and Control
 
-### Sonic-Proxy
+### [Sonic-Proxy](https://github.com/ManiAm/sonic-proxy)
 
-- **Description**: A lightweight HTTP proxy service for SONiC NOS, enabling outbound internet access for internal applications and containers.
+A lightweight HTTP proxy service for SONiC NOS, enabling outbound internet access for internal applications and containers.
 
-- **GitHub**: https://github.com/ManiAm/sonic-proxy
+### [Terminal Server](https://github.com/ManiAm/terminal-server)
 
-### Terminal Server
+A lightweight Telnet proxy that multiplexes a single remote session across multiple local clients for collaboration, monitoring, and debugging.
 
-- **Description**: A lightweight Telnet proxy that multiplexes a single remote session across multiple local clients for collaboration, monitoring, and debugging.
+### [Lab-CLI](https://github.com/ManiAm/Lab-cli)
 
-- **GitHub**: https://github.com/ManiAm/terminal-server
+A Klish-based, network-style command interface that exposes safe, structured lab operations through a controlled, auditable CLI.
 
-### Lab-CLI
 
-- **Description**: A Klish-based, network-style command interface that exposes safe, structured lab operations through a controlled, auditable CLI.
-
-- **GitHub**: https://github.com/ManiAm/Lab-cli
-
----
 
 ## CI/CD and Build Tooling
 
-### Primes-CPP
+### [Primes-CPP](https://github.com/ManiAm/primes-cpp)
 
-- **Description**: A small C++ project for prime number utilities, used as a demo for CI pipelines with build, test, static analysis, linting and code coverage.
+A small C++ project for prime number utilities, used as a demo for CI pipelines with build, test, static analysis, linting and code coverage.
 
-- **GitHub**: https://github.com/ManiAm/primes-cpp
+### [Primes-Python](https://github.com/ManiAm/primes-python)
 
-### Primes-Python
+A small Python project for prime number utilities, used as a demo for CI pipelines with formatting, linting, static analysis, documentation generation, packaging, test and code coverage.
 
-- **Description**: A small Python project for prime number utilities, used as a demo for CI pipelines with formatting, linting, static analysis, documentation generation, packaging, test and code coverage.
+### [Jenkins-Pipeline](https://github.com/ManiAm/Jenkins-pipeline)
 
-- **GitHub**: https://github.com/ManiAm/primes-python
+This project sets up a Jenkins CI/CD pipeline with one controller and three agents, triggered by GitHub webhooks.
 
-### Jenkins-Pipeline
+### [Cache-Forge](https://github.com/ManiAm/Cache-Forge)
 
-- **Description**: This project sets up a Jenkins CI/CD pipeline with one controller and three agents, triggered by GitHub webhooks.
+A self-hosted artifact caching gateway that uses JFrog Artifactory OSS to locally mirror and accelerate access to artifacts across a home lab environment.
 
-- **GitHub**: https://github.com/ManiAm/Jenkins-pipeline
 
-### Cache-Forge
-
-- **Description**: A self-hosted artifact caching gateway that uses JFrog Artifactory OSS to locally mirror and accelerate access to artifacts across a home lab environment.
-
-- **GitHub**: https://github.com/ManiAm/Cache-Forge
-
----
 
 ## Security and Cryptography
 
-### HashCraft
+### [HashCraft](https://github.com/ManiAm/HashCraft)
 
-- **Description**: A hands-on lab for learning hash functions and hash tables with multiple hash implementations and a benchmark that measures how they compare.
+A hands-on lab for learning hash functions and hash tables with multiple hash implementations and a benchmark that measures how they compare.
 
-- **GitHub**: https://github.com/ManiAm/HashCraft
+### [Digital Signature](xxx)
 
-### Digital Signature
+*(Coming soon)*
 
-- **Description**: xxx
+### [Secure Boot and Platform Integrity](xxx)
 
-- **GitHub**: xxx
+*(Coming soon)*
 
-### Secure Boot and Platform Integrity
+### [Soft-Seal](https://github.com/ManiAm/Soft-Seal)
 
-- **Description**: xxx
+A host-bound secret-sealing tool that derives encryption keys from a machine's identity so secrets stay usable only on that specific host while storing only the encrypted data.
 
-- **GitHub**: xxx
 
-### Soft-Seal
-
-- **Description**: A host-bound secret-sealing tool that derives encryption keys from a machine's identity so secrets stay usable only on that specific host while storing only the encrypted data.
-
-- **GitHub**: https://github.com/ManiAm/Soft-Seal
-
----
 
 ## Infrastructure and Operations
 
-### Slurm Cluster on Docker
+### [Slurm Cluster on Docker](https://github.com/ManiAm/slurm-docker-cluster)
 
-- **Description**: A fully containerized Slurm cluster using Docker Compose complete with controller, compute nodes, accounting (SlurmDBD + MariaDB), and REST API support.
+A fully containerized Slurm cluster using Docker Compose complete with controller, compute nodes, accounting (SlurmDBD + MariaDB), and REST API support.
 
-- **GitHub**: https://github.com/ManiAm/slurm-docker-cluster
+### [Uptime Monitor](https://github.com/ManiAm/grafana-betterstack-proxy)
 
-### Uptime Monitor
+A lightweight REST API proxy that connects BetterStack monitoring data to Grafana using JSON endpoints compatible with the Infinity plugin.
 
-- **Description**: A lightweight REST API proxy that connects BetterStack monitoring data to Grafana using JSON endpoints compatible with the Infinity plugin.
 
-- **Cluster Node**: `hermes`
-
-- **GitHub**: https://github.com/ManiAm/grafana-betterstack-proxy
-
----
 
 ## Embedded and Sensors
 
-### NTP Server
+### [NTP Server](https://github.com/ManiAm/raspi-ntp-server)
 
-- **Description**: Configuring a Raspberry Pi as a NTP server using GPS and PPS for accurate time synchronization.
+Configuring a Raspberry Pi as a NTP server using GPS and PPS for accurate time synchronization.
 
-- **Cluster Node**: `gps`
+### [SkyWatch](https://github.com/ManiAm/raspi-skywatch)
 
-- **GitHub**: https://github.com/ManiAm/raspi-ntp-server
+Real-time aircraft monitoring, enrichment, and alerting system using ADS-B data from dump1090-fa. Logs flights and sends proximity-based alerts via Discord.
 
-### SkyWatch
+### [Enviro-Watch](https://github.com/ManiAm/raspi-enviro-watch)
 
-- **Description**: Real-time aircraft monitoring, enrichment, and alerting system using ADS-B data from dump1090-fa. Logs flights and sends proximity-based alerts via Discord.
+A lightweight system for collecting temperature, humidity, and battery data from multiple BLE environmental sensors (`LYWSD03MMC`) using a Raspberry Pi. It decodes advertisements, enriches sensor metadata, and forwards the data to a remote InfluxDB database for storage, visualization, and analysis.
 
-- **Cluster Node**: `gps`
 
-- **GitHub**: https://github.com/ManiAm/raspi-skywatch
-
-### Enviro-Watch
-
-- **Description**: A lightweight system for collecting temperature, humidity, and battery data from multiple BLE environmental sensors (`LYWSD03MMC`) using a Raspberry Pi. It decodes advertisements, enriches sensor metadata, and forwards the data to a remote InfluxDB database for storage, visualization, and analysis.
-
-- **Cluster Node**: `ares`
-
-- **GitHub**: https://github.com/ManiAm/raspi-enviro-watch
-
----
 
 ## Web Services and Backend Engineering
 
-### Video2Audio
+### [Video2Audio](https://github.com/ManiAm/Video2Audio)
 
-- **Description**: A microservice-based web application that enables users to upload video files and automatically extract the corresponding audio track.
+A microservice-based web application that enables users to upload video files and automatically extract the corresponding audio track.
 
-- **Cluster Node**: `artemis`
+### [DataSpider](https://github.com/ManiAm/DataSpider)
 
-- **GitHub**: https://github.com/ManiAm/Video2Audio
+A distributed web scraping platform that uses gRPC for task submission, Celery for asynchronous task processing, and Elasticsearch for indexing scraped content. Supports real-time content search.
 
-### DataSpider
+### [Rate-Limiter](https://github.com/ManiAm/rate-limiter)
 
-- **Description**: A distributed web scraping platform that uses gRPC for task submission, Celery for asynchronous task processing, and Elasticsearch for indexing scraped content. Supports real-time content search.
+A demonstration and comparison of different rate-limiting algorithms (token bucket, leaky bucket, fixed window, sliding window, etc.) with easy-to-use decorators and middleware for applying limits to Flask endpoints.
 
-- **Cluster Node**: `artemis`
 
-- **GitHub**: https://github.com/ManiAm/DataSpider
-
-### Rate-Limiter
-
-- **Description**: A demonstration and comparison of different rate-limiting algorithms (token bucket, leaky bucket, fixed window, sliding window, etc.) with easy-to-use decorators and middleware for applying limits to Flask endpoints.
-
-- **GitHub**: https://github.com/ManiAm/rate-limiter
-
----
 
 ## Media Applications
 
-### MoviePulse
+### [MoviePulse](https://github.com/ManiAm/moviepulse)
 
-- **Description**: A lightweight, self-hosted web application designed to help families discover trending movies and TV shows.
+A lightweight, self-hosted web application designed to help families discover trending movies and TV shows.
 
-- **Cluster Node**: `artemis`
+### [Media-Stack](https://github.com/ManiAm/media-stack)
 
-- **GitHub**: https://github.com/ManiAm/moviepulse
+A self-hosted automation suite for managing, optimizing, and streaming your media library using Dockerized tools like Sonarr, Radarr, Lidarr, Readarr, Prowlarr, Bazarr, qBittorrent, SABnzbd, Jellyseerr, etc. secured with Gluetun VPN gateway for anonymous and protected downloads.
 
-### Media-Stack
 
-- **Description**: A self-hosted automation suite for managing, optimizing, and streaming your media library using Dockerized tools like Sonarr, Radarr, Lidarr, Readarr, Prowlarr, Bazarr, qBittorrent, SABnzbd, Jellyseerr, etc. secured with Gluetun VPN gateway for anonymous and protected downloads.
-
-- **Cluster Node**: `WSL`
-
-- **GitHub**: https://github.com/ManiAm/media-stack
-
----
 
 ## Chat and Collaboration Integrations
 
-### Webex-REST
+### [Webex-REST](https://github.com/ManiAm/webex-rest)
 
-- **Description**: A minimalist Python client for automating team, room, membership, and messaging operations using the Webex REST API.
+A minimalist Python client for automating team, room, membership, and messaging operations using the Webex REST API.
 
-- **GitHub**: https://github.com/ManiAm/webex-rest
+### [Webex-Assistant](https://github.com/ManiAm/webex-assistant)
 
-### Webex-Assistant
+A programmable bot framework for Webex that enables users to trigger actions, automate workflows, and retrieve contextual information through chat-based commands.
 
-- **Description**: A programmable bot framework for Webex that enables users to trigger actions, automate workflows, and retrieve contextual information through chat-based commands.
 
-- **GitHub**: https://github.com/ManiAm/webex-assistant
-
----
 
 ## Voice and Speech AI
 
-### Speak-IO
+### [Speak-IO](https://github.com/ManiAm/Speak-IO)
 
-- **Description**: A web API for speech-to-text (STT) and text-to-speech (TTS) that integrates with existing engines, supporting real-time audio streaming and modular engine selection.
+A web API for speech-to-text (STT) and text-to-speech (TTS) that integrates with existing engines, supporting real-time audio streaming and modular engine selection.
 
-- **GitHub**: https://github.com/ManiAm/Speak-IO
+### [Trigger-Talk](https://github.com/ManiAm/Trigger-Talk)
 
-### Trigger-Talk
+An offline-capable hotword detection framework that passively listens for custom wake phrases to trigger speech recognition or automation workflows.
 
-- **Description**: An offline-capable hotword detection framework that passively listens for custom wake phrases to trigger speech recognition or automation workflows.
+### [LLM-Talk](https://github.com/ManiAm/LLM-Talk)
 
-- **GitHub**: https://github.com/ManiAm/Trigger-Talk
+Natural voice conversations with language models using hotword activation.
 
-### LLM-Talk
+### [Transcribe-Voicemail](https://github.com/ManiAm/Transcribe-Voicemail)
 
-- **Description**: Natural voice conversations with language models using hotword activation.
+A self-hosted system that integrates with FreePBX to automatically transcribe voicemail audio into text and deliver it via email using local speech-to-text processing.
 
-- **GitHub**: https://github.com/ManiAm/LLM-Talk
 
-### Transcribe-Voicemail
-
-- **Description**: A self-hosted system that integrates with FreePBX to automatically transcribe voicemail audio into text and deliver it via email using local speech-to-text processing.
-
-- **GitHub**: https://github.com/ManiAm/Transcribe-Voicemail
-
----
 
 ## Retrieval and RAG
 
-### RAG-Search
+### [RAG-Search](https://github.com/ManiAm/RAG-Search)
 
-- **Description**: A web-based chat interface that combines LLMs with document-aware retrieval for context-rich, AI-powered conversations.
+A web-based chat interface that combines LLMs with document-aware retrieval for context-rich, AI-powered conversations.
 
-- **GitHub**: https://github.com/ManiAm/RAG-Search
+### [RAG-Mail](https://github.com/ManiAm/RAG-Mail)
 
-### RAG-Mail
+A thread-aware email processing system that semantically indexes conversations and attachments for context-rich retrieval using RAG.
 
-- **Description**: A thread-aware email processing system that semantically indexes conversations and attachments for context-rich retrieval using RAG.
+### [Job-Genius](https://github.com/ManiAm/Job-Genius)
 
-- **GitHub**: https://github.com/ManiAm/RAG-Mail
+An AI-powered job discovery platform that helps users find, evaluate, and personalize job opportunities using semantic search, resume matching, and real-time insights.
 
-### Job-Genius
 
-- **Description**: An AI-powered job discovery platform that helps users find, evaluate, and personalize job opportunities using semantic search, resume matching, and real-time insights.
-
-- **GitHub**: https://github.com/ManiAm/Job-Genius
-
----
 
 ## LLM Agents and Tooling
 
-### Home-MCP
+### [Home-MCP](https://github.com/ManiAm/home-MCP)
 
-- **Description**: A locally hosted MCP server that exposes tool-based APIs for use by LLM clients in a privacy-preserving and extensible environment.
+A locally hosted MCP server that exposes tool-based APIs for use by LLM clients in a privacy-preserving and extensible environment.
 
-- **GitHub**: https://github.com/ManiAm/home-MCP
+### [Personal Assistant](https://github.com/ManiAm/personal-assistant)
 
-### Personal Assistant
+An extensible AI personal assistant that uses a ReAct agent to call MCP-provided tools for real-time questions.
 
-- **Description**: An extensible AI personal assistant that uses a ReAct agent to call MCP-provided tools for real-time questions.
+### [Ollama-remote-models](https://github.com/ManiAm/ollama-remote-models)
 
-- **GitHub**: https://github.com/ManiAm/personal-assistant
-
-### Ollama-remote-models
-
-- **Description**: A tool that scrapes the Ollama website to extract and list all available remote LLM models in a structured format.
-
-- **GitHub**: https://github.com/ManiAm/ollama-remote-models
+A tool that scrapes the Ollama website to extract and list all available remote LLM models in a structured format.
 
 ---
 
