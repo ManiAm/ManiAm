@@ -330,6 +330,43 @@ A minimalist Python client for automating team, room, membership, and messaging 
 A programmable bot framework for Webex that enables users to trigger actions, automate workflows, and retrieve contextual information through chat-based commands.
 
 
+## Infrastructure and Operations
+
+### [Slurm Cluster on Docker](https://github.com/ManiAm/slurm-docker-cluster)
+
+A fully containerized Slurm cluster using Docker Compose complete with controller, compute nodes, accounting (SlurmDBD + MariaDB), and REST API support.
+
+### [Uptime Monitor](https://github.com/ManiAm/grafana-betterstack-proxy)
+
+A lightweight REST API proxy that connects BetterStack monitoring data to Grafana using JSON endpoints compatible with the Infinity plugin.
+
+
+## Embedded and Sensors
+
+### [NTP Server](https://github.com/ManiAm/raspi-ntp-server)
+
+Configuring a Raspberry Pi as a NTP server using GPS and PPS for accurate time synchronization.
+
+### [SkyWatch](https://github.com/ManiAm/raspi-skywatch)
+
+Real-time aircraft monitoring, enrichment, and alerting system using ADS-B data from dump1090-fa. Logs flights and sends proximity-based alerts via Discord.
+
+### [Enviro-Watch](https://github.com/ManiAm/raspi-enviro-watch)
+
+A lightweight system for collecting temperature, humidity, and battery data from multiple BLE environmental sensors (`LYWSD03MMC`) using a Raspberry Pi. It decodes advertisements, enriches sensor metadata, and forwards the data to a remote InfluxDB database for storage, visualization, and analysis.
+
+
+## Media Applications
+
+### [MoviePulse](https://github.com/ManiAm/moviepulse)
+
+A lightweight, self-hosted web application designed to help families discover trending movies and TV shows.
+
+### [Media-Stack](https://github.com/ManiAm/media-stack)
+
+A self-hosted automation suite for managing, optimizing, and streaming your media library using Dockerized tools like Sonarr, Radarr, Lidarr, Readarr, Prowlarr, Bazarr, qBittorrent, SABnzbd, Jellyseerr, etc. secured with Gluetun VPN gateway for anonymous and protected downloads.
+
+
 ## Voice and Speech AI
 
 ### [Speak-IO](https://github.com/ManiAm/Speak-IO)
@@ -377,43 +414,6 @@ An extensible AI personal assistant that uses a ReAct agent to call MCP-provided
 ### [Ollama-remote-models](https://github.com/ManiAm/ollama-remote-models)
 
 A tool that scrapes the Ollama website to extract and list all available remote LLM models in a structured format.
-
-
-## Infrastructure and Operations
-
-### [Slurm Cluster on Docker](https://github.com/ManiAm/slurm-docker-cluster)
-
-A fully containerized Slurm cluster using Docker Compose complete with controller, compute nodes, accounting (SlurmDBD + MariaDB), and REST API support.
-
-### [Uptime Monitor](https://github.com/ManiAm/grafana-betterstack-proxy)
-
-A lightweight REST API proxy that connects BetterStack monitoring data to Grafana using JSON endpoints compatible with the Infinity plugin.
-
-
-## Embedded and Sensors
-
-### [NTP Server](https://github.com/ManiAm/raspi-ntp-server)
-
-Configuring a Raspberry Pi as a NTP server using GPS and PPS for accurate time synchronization.
-
-### [SkyWatch](https://github.com/ManiAm/raspi-skywatch)
-
-Real-time aircraft monitoring, enrichment, and alerting system using ADS-B data from dump1090-fa. Logs flights and sends proximity-based alerts via Discord.
-
-### [Enviro-Watch](https://github.com/ManiAm/raspi-enviro-watch)
-
-A lightweight system for collecting temperature, humidity, and battery data from multiple BLE environmental sensors (`LYWSD03MMC`) using a Raspberry Pi. It decodes advertisements, enriches sensor metadata, and forwards the data to a remote InfluxDB database for storage, visualization, and analysis.
-
-
-## Media Applications
-
-### [MoviePulse](https://github.com/ManiAm/moviepulse)
-
-A lightweight, self-hosted web application designed to help families discover trending movies and TV shows.
-
-### [Media-Stack](https://github.com/ManiAm/media-stack)
-
-A self-hosted automation suite for managing, optimizing, and streaming your media library using Dockerized tools like Sonarr, Radarr, Lidarr, Readarr, Prowlarr, Bazarr, qBittorrent, SABnzbd, Jellyseerr, etc. secured with Gluetun VPN gateway for anonymous and protected downloads.
 
 ---
 
