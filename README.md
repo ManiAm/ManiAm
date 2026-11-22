@@ -28,21 +28,53 @@ Linux init systems — from the kernel-to-userspace handoff and SysV init to sys
 A beginner-friendly guide to Linux package management covering dpkg, APT, RPM, DNF, and building .deb/.rpm packages from source.
 
 
-
 ## Tools and Environment
-
-### [Bash Primer](https://github.com/ManiAm/primer-bash)
-
-A hands-on primer on Bash — covering shell fundamentals, scripting patterns, process control, and practical techniques for day-to-day systems work.
 
 ### [Terminal Primer](https://github.com/ManiAm/primer-terminal)
 
 A beginner-friendly guide to how terminals work in Linux — from physical teletypes to modern terminal emulators.
 
+### [Bash Primer](https://github.com/ManiAm/primer-bash)
+
+A hands-on primer on Bash — covering shell fundamentals, scripting patterns, process control, and practical techniques for day-to-day systems work.
+
 ### [Build Tools Primer](https://github.com/ManiAm/primer-build-tools)
 
 A comparative guide to build systems — Make, CMake, and Bazel — covering dependency models, build graphs, caching, and when to use each.
 
+
+## CI/CD and Build Tooling
+
+### [Primes-CPP](https://github.com/ManiAm/primes-cpp)
+
+A small C++ project for prime number utilities, used as a demo for CI pipelines with build, test, static analysis, linting and code coverage.
+
+### [Primes-Python](https://github.com/ManiAm/primes-python)
+
+A small Python project for prime number utilities, used as a demo for CI pipelines with formatting, linting, static analysis, documentation generation, packaging, test and code coverage.
+
+### [Jenkins-Pipeline](https://github.com/ManiAm/Jenkins-pipeline)
+
+This project sets up a Jenkins CI/CD pipeline with one controller and three agents, triggered by GitHub webhooks.
+
+### [Cache-Forge](https://github.com/ManiAm/Cache-Forge)
+
+A self-hosted artifact caching gateway that uses JFrog Artifactory OSS to locally mirror and accelerate access to artifacts across a home lab environment.
+
+
+## Security and Cryptography
+
+### [HashCraft](https://github.com/ManiAm/HashCraft)
+
+A hands-on lab for learning hash functions and hash tables with multiple hash implementations and a benchmark that measures how they compare.
+
+### [Digital Signature](xxx)
+
+*(Coming soon)*
+
+### [Soft-Seal](https://github.com/ManiAm/Soft-Seal)
+
+A host-bound secret-sealing tool that derives encryption keys from a machine's identity so secrets stay usable only on that specific host while storing only the encrypted data.
 
 
 ## Virtualization
@@ -57,8 +89,7 @@ A cross-architecture virtualization lab that connects lightweight QEMU VMs acros
 
 ### [Container Orchestration](https://github.com/ManiAm/container-orchestration)
 
-A primer on container orchestration with a focus on Kubernetes.
-
+*(Coming soon)*
 
 
 ## Routing and Forwarding
@@ -80,7 +111,6 @@ A hands-on Docker lab that builds a four-node IS-IS network with SRv6, demonstra
 A Docker lab that demonstrates VRF routing-table isolation and BGP route leaking on a single FRR router with two VRFs and four hosts.
 
 
-
 ## Programmable Networking
 
 ### [Software-Defined Networking (SDN)](xxx)
@@ -92,7 +122,6 @@ A Docker lab that demonstrates VRF routing-table isolation and BGP route leaking
 A containerized P4 learning environment using Mininet and BMv2 to simulate programmable IPv4 forwarding.
 
 
-
 ## Packet Processing
 
 ### [DPDK-LabNet](https://github.com/ManiAm/dpdk-labnet)
@@ -102,7 +131,6 @@ A minimal virtual lab environment using two VMs to test and validate DPDK-based 
 ### [VPP-LabNet](https://github.com/ManiAm/vpp-labnet)
 
 A lightweight container-based lab using VPP and FRRouting to simulate high-speed packet forwarding and dynamic routing across multiple virtual nodes.
-
 
 
 ## Data Center Networking
@@ -128,12 +156,22 @@ Hands-on RDMA application development in C, covering InfiniBand and RoCEv2.
 A structured guide to hardware-level load balancing in data center switch fabrics — from ECMP hashing and its limitations through Adaptive Routing and congestion-aware traffic steering on ASICs and NPUs.
 
 
+## AI Infrastructure Networking
+
+### [MPI](https://github.com/ManiAm/GNS-MPI)
+
+MPI collective operations and communication topologies demonstrated across networked compute nodes in GNS3.
+
+### [AI Network Architecture](https://github.com/ManiAm/DC-AI)
+
+*(Coming soon)*
+
+### [Multipath Reliable Connection (MRC)](https://github.com/ManiAm/DC-AI-MRC)
+
+A hands-on emulator for MRC, a multipath RDMA protocol that sprays packets across all fabric paths to scale RoCEv2 for AI training.
+
 
 ## SONiC Internals and Development
-
-### [Redis Lab](https://github.com/ManiAm/sonic-lab-redis)
-
-A structured reference for Redis — covering data types, persistence, transactions, Lua scripting, pub/sub, replication, and Python client usage.
 
 ### [SONiC Internals Lab](https://github.com/ManiAm/sonic-lab-internals)
 
@@ -146,7 +184,6 @@ A step-by-step guide to building SONiC VS images from source, covering host setu
 ### [SONiC Daemon Lab](https://github.com/ManiAm/sonic-lab-daemon)
 
 Developing custom SONiC containers and daemons — from Debian packaging and Docker integration to service management with supervisord.
-
 
 
 ## SONiC Network Operations — GNS
@@ -176,23 +213,6 @@ A traffic visibility and telemetry toolkit for SONiC devices, featuring real-tim
 A GNS3-based testbed for validating SONiC router traffic flows using TRex in a controlled environment.
 
 
-
-## AI Infrastructure Networking
-
-### [MPI](https://github.com/ManiAm/GNS-MPI)
-
-MPI collective operations and communication topologies demonstrated across networked compute nodes in GNS3.
-
-### [AI Network Architecture](https://github.com/ManiAm/DC-AI)
-
-End-to-end AI network architecture: from the DNN workload through scale-up, scale-out, and open standards.
-
-### [Multipath Reliable Connection (MRC)](https://github.com/ManiAm/DC-AI-MRC)
-
-A hands-on emulator for MRC, a multipath RDMA protocol that sprays packets across all fabric paths to scale RoCEv2 for AI training.
-
-
-
 ## Physical Switch Lab
 
 ### [Switch SerDes and Signaling](https://github.com/ManiAm/net-lab-switch-serdes)
@@ -212,7 +232,6 @@ Celestica DX010 hardware deep-dive, cooling, setup guides, and SONiC platform sc
 Physical-layer PRBS testing and signal integrity validation on a Celestica DX010 (Tomahawk) SONiC switch.
 
 
-
 ## Lab Access and Control
 
 ### [Sonic-Proxy](https://github.com/ManiAm/sonic-proxy)
@@ -228,73 +247,61 @@ A lightweight Telnet proxy that multiplexes a single remote session across multi
 A Klish-based, network-style command interface that exposes safe, structured lab operations through a controlled, auditable CLI.
 
 
+## Distributed Systems and Databases
 
-## CI/CD and Build Tooling
-
-### [Primes-CPP](https://github.com/ManiAm/primes-cpp)
-
-A small C++ project for prime number utilities, used as a demo for CI pipelines with build, test, static analysis, linting and code coverage.
-
-### [Primes-Python](https://github.com/ManiAm/primes-python)
-
-A small Python project for prime number utilities, used as a demo for CI pipelines with formatting, linting, static analysis, documentation generation, packaging, test and code coverage.
-
-### [Jenkins-Pipeline](https://github.com/ManiAm/Jenkins-pipeline)
-
-This project sets up a Jenkins CI/CD pipeline with one controller and three agents, triggered by GitHub webhooks.
-
-### [Cache-Forge](https://github.com/ManiAm/Cache-Forge)
-
-A self-hosted artifact caching gateway that uses JFrog Artifactory OSS to locally mirror and accelerate access to artifacts across a home lab environment.
-
-
-
-## Security and Cryptography
-
-### [HashCraft](https://github.com/ManiAm/HashCraft)
-
-A hands-on lab for learning hash functions and hash tables with multiple hash implementations and a benchmark that measures how they compare.
-
-### [Digital Signature](xxx)
+### [Distributed Systems Primer](xxx)
 
 *(Coming soon)*
 
-### [Secure Boot and Platform Integrity](xxx)
+### [SQL Databases](xxx)
 
 *(Coming soon)*
 
-### [Soft-Seal](https://github.com/ManiAm/Soft-Seal)
+### [NoSQL Databases](xxx)
 
-A host-bound secret-sealing tool that derives encryption keys from a machine's identity so secrets stay usable only on that specific host while storing only the encrypted data.
+*(Coming soon)*
 
+### [Redis Lab](https://github.com/ManiAm/sonic-lab-redis)
 
-
-## Infrastructure and Operations
-
-### [Slurm Cluster on Docker](https://github.com/ManiAm/slurm-docker-cluster)
-
-A fully containerized Slurm cluster using Docker Compose complete with controller, compute nodes, accounting (SlurmDBD + MariaDB), and REST API support.
-
-### [Uptime Monitor](https://github.com/ManiAm/grafana-betterstack-proxy)
-
-A lightweight REST API proxy that connects BetterStack monitoring data to Grafana using JSON endpoints compatible with the Infinity plugin.
+A structured reference for Redis — covering data types, persistence, transactions, Lua scripting, pub/sub, replication, and Python client usage.
 
 
+## Web and API Infrastructure
 
-## Embedded and Sensors
+### [Network Programming](xxx)
 
-### [NTP Server](https://github.com/ManiAm/raspi-ntp-server)
+*(Coming soon)*
 
-Configuring a Raspberry Pi as a NTP server using GPS and PPS for accurate time synchronization.
+### [Web Servers](xxx)
 
-### [SkyWatch](https://github.com/ManiAm/raspi-skywatch)
+*(Coming soon)*
 
-Real-time aircraft monitoring, enrichment, and alerting system using ADS-B data from dump1090-fa. Logs flights and sends proximity-based alerts via Discord.
+### [Web Frameworks](xxx)
 
-### [Enviro-Watch](https://github.com/ManiAm/raspi-enviro-watch)
+*(Coming soon)*
 
-A lightweight system for collecting temperature, humidity, and battery data from multiple BLE environmental sensors (`LYWSD03MMC`) using a Raspberry Pi. It decodes advertisements, enriches sensor metadata, and forwards the data to a remote InfluxDB database for storage, visualization, and analysis.
+### [Web APIs](xxx)
 
+*(Coming soon)*
+
+
+## Messaging and Microservices
+
+### [Message Brokers](xxx)
+
+*(Coming soon)*
+
+### [Apache Kafka](xxx)
+
+*(Coming soon)*
+
+### [Celery](xxx)
+
+*(Coming soon)*
+
+### [Microservices](xxx)
+
+*(Coming soon)*
 
 
 ## Web Services and Backend Engineering
@@ -312,19 +319,6 @@ A distributed web scraping platform that uses gRPC for task submission, Celery f
 A demonstration and comparison of different rate-limiting algorithms (token bucket, leaky bucket, fixed window, sliding window, etc.) with easy-to-use decorators and middleware for applying limits to Flask endpoints.
 
 
-
-## Media Applications
-
-### [MoviePulse](https://github.com/ManiAm/moviepulse)
-
-A lightweight, self-hosted web application designed to help families discover trending movies and TV shows.
-
-### [Media-Stack](https://github.com/ManiAm/media-stack)
-
-A self-hosted automation suite for managing, optimizing, and streaming your media library using Dockerized tools like Sonarr, Radarr, Lidarr, Readarr, Prowlarr, Bazarr, qBittorrent, SABnzbd, Jellyseerr, etc. secured with Gluetun VPN gateway for anonymous and protected downloads.
-
-
-
 ## Chat and Collaboration Integrations
 
 ### [Webex-REST](https://github.com/ManiAm/webex-rest)
@@ -334,7 +328,6 @@ A minimalist Python client for automating team, room, membership, and messaging 
 ### [Webex-Assistant](https://github.com/ManiAm/webex-assistant)
 
 A programmable bot framework for Webex that enables users to trigger actions, automate workflows, and retrieve contextual information through chat-based commands.
-
 
 
 ## Voice and Speech AI
@@ -356,7 +349,6 @@ Natural voice conversations with language models using hotword activation.
 A self-hosted system that integrates with FreePBX to automatically transcribe voicemail audio into text and deliver it via email using local speech-to-text processing.
 
 
-
 ## Retrieval and RAG
 
 ### [RAG-Search](https://github.com/ManiAm/RAG-Search)
@@ -372,7 +364,6 @@ A thread-aware email processing system that semantically indexes conversations a
 An AI-powered job discovery platform that helps users find, evaluate, and personalize job opportunities using semantic search, resume matching, and real-time insights.
 
 
-
 ## LLM Agents and Tooling
 
 ### [Home-MCP](https://github.com/ManiAm/home-MCP)
@@ -386,6 +377,43 @@ An extensible AI personal assistant that uses a ReAct agent to call MCP-provided
 ### [Ollama-remote-models](https://github.com/ManiAm/ollama-remote-models)
 
 A tool that scrapes the Ollama website to extract and list all available remote LLM models in a structured format.
+
+
+## Infrastructure and Operations
+
+### [Slurm Cluster on Docker](https://github.com/ManiAm/slurm-docker-cluster)
+
+A fully containerized Slurm cluster using Docker Compose complete with controller, compute nodes, accounting (SlurmDBD + MariaDB), and REST API support.
+
+### [Uptime Monitor](https://github.com/ManiAm/grafana-betterstack-proxy)
+
+A lightweight REST API proxy that connects BetterStack monitoring data to Grafana using JSON endpoints compatible with the Infinity plugin.
+
+
+## Embedded and Sensors
+
+### [NTP Server](https://github.com/ManiAm/raspi-ntp-server)
+
+Configuring a Raspberry Pi as a NTP server using GPS and PPS for accurate time synchronization.
+
+### [SkyWatch](https://github.com/ManiAm/raspi-skywatch)
+
+Real-time aircraft monitoring, enrichment, and alerting system using ADS-B data from dump1090-fa. Logs flights and sends proximity-based alerts via Discord.
+
+### [Enviro-Watch](https://github.com/ManiAm/raspi-enviro-watch)
+
+A lightweight system for collecting temperature, humidity, and battery data from multiple BLE environmental sensors (`LYWSD03MMC`) using a Raspberry Pi. It decodes advertisements, enriches sensor metadata, and forwards the data to a remote InfluxDB database for storage, visualization, and analysis.
+
+
+## Media Applications
+
+### [MoviePulse](https://github.com/ManiAm/moviepulse)
+
+A lightweight, self-hosted web application designed to help families discover trending movies and TV shows.
+
+### [Media-Stack](https://github.com/ManiAm/media-stack)
+
+A self-hosted automation suite for managing, optimizing, and streaming your media library using Dockerized tools like Sonarr, Radarr, Lidarr, Readarr, Prowlarr, Bazarr, qBittorrent, SABnzbd, Jellyseerr, etc. secured with Gluetun VPN gateway for anonymous and protected downloads.
 
 ---
 
