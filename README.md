@@ -319,6 +319,17 @@ A distributed web scraping platform that uses gRPC for task submission, Celery f
 A demonstration and comparison of different rate-limiting algorithms (token bucket, leaky bucket, fixed window, sliding window, etc.) with easy-to-use decorators and middleware for applying limits to Flask endpoints.
 
 
+## Media Applications
+
+### [MoviePulse](https://github.com/ManiAm/moviepulse)
+
+A lightweight, self-hosted web application designed to help families discover trending movies and TV shows.
+
+### [Media-Stack](https://github.com/ManiAm/media-stack)
+
+A self-hosted automation suite for managing, optimizing, and streaming your media library using Dockerized tools like Sonarr, Radarr, Lidarr, Readarr, Prowlarr, Bazarr, qBittorrent, SABnzbd, Jellyseerr, etc. secured with Gluetun VPN gateway for anonymous and protected downloads.
+
+
 ## Chat and Collaboration Integrations
 
 ### [Webex-REST](https://github.com/ManiAm/webex-rest)
@@ -354,17 +365,6 @@ Real-time aircraft monitoring, enrichment, and alerting system using ADS-B data 
 ### [Enviro-Watch](https://github.com/ManiAm/raspi-enviro-watch)
 
 A lightweight system for collecting temperature, humidity, and battery data from multiple BLE environmental sensors (`LYWSD03MMC`) using a Raspberry Pi. It decodes advertisements, enriches sensor metadata, and forwards the data to a remote InfluxDB database for storage, visualization, and analysis.
-
-
-## Media Applications
-
-### [MoviePulse](https://github.com/ManiAm/moviepulse)
-
-A lightweight, self-hosted web application designed to help families discover trending movies and TV shows.
-
-### [Media-Stack](https://github.com/ManiAm/media-stack)
-
-A self-hosted automation suite for managing, optimizing, and streaming your media library using Dockerized tools like Sonarr, Radarr, Lidarr, Readarr, Prowlarr, Bazarr, qBittorrent, SABnzbd, Jellyseerr, etc. secured with Gluetun VPN gateway for anonymous and protected downloads.
 
 
 ## Voice and Speech AI
