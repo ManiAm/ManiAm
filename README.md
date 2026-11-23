@@ -68,7 +68,7 @@ A self-hosted artifact caching gateway that uses JFrog Artifactory OSS to locall
 
 A hands-on lab for learning hash functions and hash tables with multiple hash implementations and a benchmark that measures how they compare.
 
-### [Digital Signature](xxx)
+### [Security Primer](https://github.com/ManiAm/primer-security/tree/master)
 
 *(Coming soon)*
 
