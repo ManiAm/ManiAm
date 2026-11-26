@@ -68,9 +68,13 @@ A self-hosted artifact caching gateway that uses JFrog Artifactory OSS to locall
 
 A hands-on lab for learning hash functions and hash tables with multiple hash implementations and a benchmark that measures how they compare.
 
-### [Security Primer](https://github.com/ManiAm/primer-security/tree/master)
+### [Security Primer](https://github.com/ManiAm/primer-security)
 
 *(Coming soon)*
+
+### [Trusted Platform Module (TPM)](https://github.com/ManiAm/TPM)
+
+A reference covering the Trusted Platform Module — its internal architecture, cryptographic capabilities, the software stack that communicates with it, and hands-on labs for practical TPM 2.0 operations.
 
 ### [Soft-Seal](https://github.com/ManiAm/Soft-Seal)
 
