@@ -72,6 +72,10 @@ A hands-on lab for learning hash functions and hash tables with multiple hash im
 
 *(Coming soon)*
 
+### [Secure Boot](https://github.com/ManiAm/secure-boot)
+
+A hands-on guide to UEFI Secure Boot — the firmware-level security feature that prevents unauthorized code from running during the boot process.
+
 ### [Trusted Platform Module (TPM)](https://github.com/ManiAm/TPM)
 
 A reference covering the Trusted Platform Module — its internal architecture, cryptographic capabilities, the software stack that communicates with it, and hands-on labs for practical TPM 2.0 operations.
