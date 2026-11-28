@@ -80,6 +80,10 @@ A hands-on guide to UEFI Secure Boot — the firmware-level security feature tha
 
 A reference covering the Trusted Platform Module — its internal architecture, cryptographic capabilities, the software stack that communicates with it, and hands-on labs for practical TPM 2.0 operations.
 
+### [Hardware Security Module (HSM)](https://github.com/ManiAm/HSM)
+
+HSM fundamentals, real-world use cases, and hands-on HSM setup for cryptographic key management and Secure Boot signing.
+
 ### [Soft-Seal](https://github.com/ManiAm/Soft-Seal)
 
 A host-bound secret-sealing tool that derives encryption keys from a machine's identity so secrets stay usable only on that specific host while storing only the encrypted data.
